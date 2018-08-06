@@ -39,17 +39,17 @@ class ViewController: UIViewController {
          """, preferredStyle: .actionSheet)
         
         let action = UIAlertAction(title: "Aceptar", style: .default) { (action) in
-            print("He pulsado el boton aceptar")
+            print("He pulsado el boton de Aceptar")
         }
         controller.addAction(action)
         
         let action2 = UIAlertAction(title: "Borrar", style: .destructive, handler: {(action2) in
-            print("He pulsado el boton Borrar")
+            print("He pulsado el boton de Borrar")
         })
         controller.addAction(action2)
         
         let action3 = UIAlertAction(title: "Cancelar", style: .cancel){_ in
-         print("He pulsado el botón cancelar")
+         print("He pulsado el botón de Cancelar")
         }
         controller.addAction(action3)
         
